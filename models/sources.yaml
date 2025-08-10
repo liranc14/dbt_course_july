@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: nba_raw_data
+    database: nba_kaggle
+    schema: raw 
+    tables:
+      - name: draft_history
+      - name: game
+      - name: team
