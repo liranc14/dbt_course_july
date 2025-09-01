@@ -1,0 +1,9 @@
+version: 2
+
+seeds:
+  - name: movies_asd
+    config:
+      schema: rafael
+      column_types:
+        movie: string
+        release_year: string

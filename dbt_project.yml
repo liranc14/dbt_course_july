@@ -18,9 +18,13 @@ clean-targets:
   - "dbt_packages"
 
 
+seeds:
+  +schema: "public"
+
 
 models:
   dbt_course_july:
     +materialized: table
+    +schema: public
     example:
       +materialized: table

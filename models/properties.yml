@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: movies_model
+    columns:
+      - name: movie
+        tests:
+          - unique

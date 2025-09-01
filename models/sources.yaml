@@ -8,3 +8,5 @@ sources:
       - name: draft_history
       - name: game
       - name: team
+      - name: line_score
+      
